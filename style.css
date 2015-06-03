@@ -1,0 +1,422 @@
+html, body {
+    width: 100%;
+    height: 100%;
+	overflow: hidden;
+    background-color: black;
+}
+
+#sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    height: 10px;
+    width: 10px;
+    margin-top: 0px; 
+    margin-left: 0px;
+	
+    border-radius: 50%;
+	background: yellow;
+
+    box-shadow: 0 0 128px yellow;
+}
+
+#mercury {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+
+    height: 10px;
+    width: 10px;
+    margin-top: 0px; 
+    margin-left: 0px;
+	
+    border-radius: 50%;
+	background: #25383C;
+
+    box-shadow: 0 0 128px #25383C;
+}
+
+#mercury_orbit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	width: calc(10px * 1.5);
+    height: calc(10px * 1.5);
+    margin-top: calc(-5px * 1.5);
+    margin-left: calc(-5px * 1.5);
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 3s linear infinite;
+     -moz-animation: spin-right 3s linear infinite;
+      -ms-animation: spin-right 3s linear infinite;
+       -o-animation: spin-right 3s linear infinite;
+          animation: spin-right 3s linear infinite;
+}
+
+#venus {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+
+    height: 10px;
+    width: 10px;
+    margin-top: 0px; 
+    margin-left: 0px;
+	
+    border-radius: 50%;
+	background: #FFF380;
+
+    box-shadow: 0 0 128px #FFF380;
+}
+
+#venus_orbit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	width: calc(18.3px * 1.5);
+    height: calc(18.3px * 1.5);
+    margin-top: calc(-9.15px * 1.5);
+    margin-left: calc(-9.15px * 1.5);
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 7s linear infinite;
+     -moz-animation: spin-right 7s linear infinite;
+      -ms-animation: spin-right 7s linear infinite;
+       -o-animation: spin-right 7s linear infinite;
+          animation: spin-right 7s linear infinite;
+}
+
+#earth {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+
+    height: 10px;
+    width: 10px;
+    margin-top: 0px; 
+    margin-left: 0px;
+	
+    border-radius: 50%;
+	background: blue;
+
+    box-shadow: 0 0 128px blue;
+}
+
+#earth_orbit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	width: calc(25.3px * 1.5);
+    height: calc(25.3px * 1.5);
+    margin-top: calc(-12.65px * 1.5);
+    margin-left: calc(-12.65px * 1.5);
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 12s linear infinite;
+     -moz-animation: spin-right 12s linear infinite;
+      -ms-animation: spin-right 12s linear infinite;
+       -o-animation: spin-right 12s linear infinite;
+          animation: spin-right 12s linear infinite;
+}
+
+#moon {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+
+    height: 5px;
+    width: 5px;
+    margin-top: 0px; 
+    margin-left: 0px;
+	
+    border-radius: 50%;
+	background: #BCC6CC;
+
+    box-shadow: 0 0 128px #BCC6CC;
+}
+
+#moon_orbit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	width: calc(0.1px * 1.5);
+    height: calc(0.1px * 1.5);
+    margin-top: calc(-0.05px * 1.5);
+    margin-left: calc(-0.05px * 1.5);
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 0.01s linear infinite;
+     -moz-animation: spin-right 0.01s linear infinite;
+      -ms-animation: spin-right 0.01s linear infinite;
+       -o-animation: spin-right 0.01s linear infinite;
+          animation: spin-right 0.01s linear infinite;
+}
+
+#mars {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+
+    height: 10px;
+    width: 10px;
+    margin-top: 0px; 
+    margin-left: 0px;
+	
+    border-radius: 50%;
+	background: red;
+
+    box-shadow: 0 0 128px red;
+}
+
+#mars_orbit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	width: calc(38.6px * 1.5);
+    height: calc(38.6px * 1.5);
+    margin-top: calc(-19.3px * 1.5);
+    margin-left: calc(-19.3px * 1.5);
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 23s linear infinite;
+     -moz-animation: spin-right 23s linear infinite;
+      -ms-animation: spin-right 23s linear infinite;
+       -o-animation: spin-right 23s linear infinite;
+          animation: spin-right 23s linear infinite;
+}
+
+#jupiter {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+
+    height: 10px;
+    width: 10px;
+    margin-top: 0px; 
+    margin-left: 0px;
+	
+    border-radius: 50%;
+	background: #8A4117;
+
+    box-shadow: 0 0 128px #8A4117;
+}
+
+#jupiter_orbit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	width: calc(131.8px * 1.5);
+    height: calc(131.8px * 1.5);
+    margin-top: calc(-65.9px * 1.5);
+    margin-left: calc(-65.9px * 1.5);
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 142s linear infinite;
+     -moz-animation: spin-right 142s linear infinite;
+      -ms-animation: spin-right 142s linear infinite;
+       -o-animation: spin-right 142s linear infinite;
+          animation: spin-right 142s linear infinite;
+}
+
+#saturn {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+
+    height: 10px;
+    width: 10px;
+    margin-top: 0px; 
+    margin-left: 0px;
+	
+    border-radius: 50%;
+	background: orange;
+
+    box-shadow: 0 0 128px orange;
+}
+
+#saturn_orbit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	width: calc(241.5px * 1.5);
+    height: calc(241.5px * 1.5);
+    margin-top: calc(-120.75px * 1.5);
+    margin-left: calc(-120.75px * 1.5);
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 354s linear infinite;
+     -moz-animation: spin-right 354s linear infinite;
+      -ms-animation: spin-right 354s linear infinite;
+       -o-animation: spin-right 354s linear infinite;
+          animation: spin-right 354s linear infinite;
+}
+
+#uranus {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+
+    height: 10px;
+    width: 10px;
+    margin-top: 0px; 
+    margin-left: 0px;
+	
+    border-radius: 50%;
+	background: green;
+
+    box-shadow: 0 0 128px green;
+}
+
+#uranus_orbit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	width: calc(486px * 1.5);
+    height: calc(486px * 1.5);
+    margin-top: calc(-243px * 1.5);
+    margin-left: calc(-243px * 1.5);
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 1009s linear infinite;
+     -moz-animation: spin-right 1009s linear infinite;
+      -ms-animation: spin-right 1009s linear infinite;
+       -o-animation: spin-right 1009s linear infinite;
+          animation: spin-right 1009s linear infinite;
+}
+
+#neptune {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+
+    height: 10px;
+    width: 10px;
+    margin-top: 0px; 
+    margin-left: 0px;
+	
+    border-radius: 50%;
+	background:  blue;
+
+    box-shadow: 0 0 128px blue;
+}
+
+#neptune_orbit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	width: calc(761.6px * 1.5);
+    height: calc(761.6px * 1.5);
+    margin-top: calc(-375.8px * 1.5);
+    margin-left: calc(-375.8px * 1.5);
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 1979s linear infinite;
+     -moz-animation: spin-right 1979s linear infinite;
+      -ms-animation: spin-right 1979s linear infinite;
+       -o-animation: spin-right 1979s linear infinite;
+          animation: spin-right 1979s linear infinite;
+}
+
+#pluto {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+
+    height: 10px;
+    width: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+	
+    border-radius: 50%;
+	background: brown;
+
+    box-shadow: 0 0 128px brown;
+}
+
+#pluto_orbit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	width: calc(1000px * 1.5);
+    height: calc(1000px * 1.5);
+    margin-top: calc(-500px * 1.5);
+    margin-left: calc(-500px * 1.5);
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 2977s linear infinite;
+     -moz-animation: spin-right 2977s linear infinite;
+      -ms-animation: spin-right 2977s linear infinite;
+       -o-animation: spin-right 2977s linear infinite;
+          animation: spin-right 2977s linear infinite;
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
